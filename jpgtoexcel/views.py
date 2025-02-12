@@ -7,7 +7,6 @@ import io
 import tempfile
 import numpy as np
 
-# Create your views here.
 @csrf_exempt
 def jpgtoexcel(request):
     if request.method == 'POST':
