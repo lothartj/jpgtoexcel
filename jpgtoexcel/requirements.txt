@@ -1,0 +1,6 @@
+Django>=4.2.0
+Pillow>=10.0.0  # for image processing
+easyocr>=1.7.1  # for OCR (replaces pytesseract)
+pandas>=2.0.0  # for Excel creation
+openpyxl>=3.1.2  # for Excel writing
+torch>=2.0.0  # required by easyocr
